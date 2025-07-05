@@ -1,0 +1,13 @@
+
+Big-O Analysis of SinglyLinkedList Methods (n = number of nodes):
+
+1. __init__()          -> O(1)
+2. is_empty()          -> O(1)
+3. prepend(data)       -> O(1)
+4. append(data)        -> O(n)
+5. insert_after(node)  -> O(1)
+6. delete(node)        -> O(n)
+7. search(data)        -> O(n)
+8. size()              -> O(n)
+9. to_list()           -> O(n)
+10. print()            -> O(n)
