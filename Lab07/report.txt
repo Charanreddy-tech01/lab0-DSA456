@@ -1,0 +1,51 @@
+
+Binary Search Tree and AVL Balancing Report
+-------------------------------------------
+
+1. Overview
+-----------
+In this assignment, we generated 1000 Binary Search Trees (BSTs) from random permutations of numbers 1 through 20. 
+Each BST was analyzed for its height and root imbalance (difference in height between left and right subtrees).
+
+2. Height and Imbalance Analysis
+-------------------------------
+- Minimum Height: 5
+- Maximum Height: 12
+- Average Height: ~7.77
+
+- Minimum Imbalance: 0
+- Maximum Imbalance: 11
+- Average Imbalance: ~3.61
+
+Histograms were created to visualize the distribution of tree heights and imbalances across the 1000 BSTs.
+
+3. AVL Tree Rebalancing
+-----------------------
+Two trees with the highest imbalance values (11 and 10 respectively) were selected.
+The AVL Tree algorithm was applied using rotations to restore balance.
+
+- Tree 1:
+  - Original Height: 12
+  - Imbalance: 11
+  - Balanced Height: 5
+
+- Tree 2:
+  - Original Height: 11
+  - Imbalance: 10
+  - Balanced Height: 5
+
+These results confirm that AVL self-balancing significantly improves the structure and efficiency of BSTs.
+
+4. Conclusion
+-------------
+This experiment shows how unbalanced trees frequently occur in BSTs generated from random data, and how AVL rotations
+can restore balance efficiently. Balanced trees enable faster search, insert, and delete operations, especially important in large datasets.
+
+Files Included:
+---------------
+1. main.py                – Full Python script for BST generation and AVL balancing
+2. height_histogram.png   – Histogram of BST heights
+3. imbalance_histogram.png– Histogram of BST imbalances
+4. report.txt             – This report
+5. tree_examples.txt      – Structure and analysis of the two most imbalanced trees
+
